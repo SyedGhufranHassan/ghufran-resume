@@ -122,18 +122,7 @@
 (( endfor ))
     }}
   \end{itemize}
-\vspace{-5pt}
 (( endif ))
-
-%-----------TECHNICAL EXPERTISE-----------
-(( for cat in skills if cat.name == "Technical Expertise" ))
-\section{Technical Expertise}
-  \resumeItemListStart
-(( for skill in cat.skills ))
-    \resumeItem{((= skill | latex_escape =))}
-(( endfor ))
-  \resumeItemListEnd
-(( endfor ))
 
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -165,6 +154,16 @@
       \resumeItemListEnd
 (( endfor ))
   \resumeSubHeadingListEnd
+
+%-----------TECHNICAL EXPERTISE-----------
+(( for cat in skills if cat.name == "Technical Expertise" ))
+\section{Technical Expertise}
+  \resumeItemListStart
+(( for skill in cat.skills ))
+    \resumeItem{((= skill | latex_escape =))}
+(( endfor ))
+  \resumeItemListEnd
+(( endfor ))
 
 %-------------------------------------------
 \end{document}
