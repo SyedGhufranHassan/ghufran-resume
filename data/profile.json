@@ -1,14 +1,14 @@
 {
-    "name": "John Doe",
-    "title": "Senior Full Stack Engineer | Cloud Architect",
-    "bio": "Enthusiastic and highly skilled Software Engineer with over 8 years of experience in building scalable web applications and distributed systems. Passionate about solving complex architectural challenges and mentoring engineering teams. Proven track record of delivering high-impact solutions using React, Node.js, and multi-cloud environments (AWS/Azure). Focused on performance optimization and driving development lifecycle efficiencies.",
-    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150",
+    "name": "Syed Ghufran Hassan",
+    "title": "AI Engineer | Computer Vision & LLMs",
+    "bio": "AI Engineer building production vision and LLM systems: GPT-4o valuation, FastAPI pipelines, LangChain chatbots, and browser agents that act on what they see. Data Science graduate who turns messy data and UIs into automated decisions.",
+    "avatar": "",
     "socials": {
-        "github": "https://github.com/johndoe",
-        "linkedin": "https://linkedin.com/in/johndoe"
+        "github": "https://github.com/SyedGhufranHassan",
+        "linkedin": "https://www.linkedin.com/in/syed-ghufran-hassan-903042249/"
     },
     "resume": {
-        "phone": "+1-555-0123",
-        "website": "https://johndoe.dev"
+        "phone": "+92 330 2065742",
+        "website": "https://github.com/SyedGhufranHassan"
     }
 }

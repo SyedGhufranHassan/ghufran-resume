@@ -1,0 +1,75 @@
+{
+    "categories": [
+        {
+            "name": "Languages",
+            "skills": [
+                "Python",
+                "Golang"
+            ]
+        },
+        {
+            "name": "Libraries & Frameworks",
+            "skills": [
+                "GPT-4o Vision",
+                "OpenAI API",
+                "LangChain",
+                "FastAPI",
+                "TensorFlow",
+                "Flask",
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "Scikit-learn",
+                "Selenium",
+                "Playwright",
+                "GoChi"
+            ]
+        },
+        {
+            "name": "Tools",
+            "skills": [
+                "Docker",
+                "AWS S3",
+                "PostgreSQL",
+                "Git",
+                "Postman",
+                "Vercel",
+                "VS Code"
+            ]
+        },
+        {
+            "name": "Platforms",
+            "skills": [
+                "Linux",
+                "Web"
+            ]
+        },
+        {
+            "name": "Soft Skills",
+            "skills": [
+                "Problem Solving",
+                "Communication",
+                "Time Management",
+                "Team Player"
+            ]
+        },
+        {
+            "name": "Certifications",
+            "skills": [
+                "Complete Data Science, Machine Learning, Deep Learning NLP Bootcamp"
+            ]
+        },
+        {
+            "name": "Technical Expertise",
+            "skills": [
+                "Data Scraping using Selenium and Playwright from dynamic websites",
+                "Data Cleaning, Transformation, and Manipulation using Pandas and NumPy",
+                "Exploratory Data Analysis (EDA) and Visualization using Matplotlib",
+                "REST API Development using Flask, FastAPI",
+                "LLM-based Application Development using LangChain and Embeddings",
+                "Structured and Unstructured Data Handling with relational databases",
+                "End-to-End Data Pipelines including data collection, processing, and storage"
+            ]
+        }
+    ]
+}

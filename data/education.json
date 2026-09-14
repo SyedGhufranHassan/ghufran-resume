@@ -1,16 +1,25 @@
 {
     "education": [
         {
-            "institution": "University of Technology",
-            "location": "Austin, TX",
-            "degree": "Master of Science in Computer Science",
-            "duration": "Sep. 2014 -- May 2016"
+            "institution": "Punjab University of Computing Information Technology",
+            "location": "Lahore, Pakistan",
+            "degree": "Bachelor's in Data Science",
+            "duration": "Dec. 2021 -- Jun. 2025",
+            "courses": [
+                "Operating Systems",
+                "Data Structures",
+                "Analysis Of Algorithms",
+                "Artificial Intelligence",
+                "Machine Learning",
+                "Deep Learning",
+                "Computer Vision"
+            ]
         },
         {
-            "institution": "State University",
-            "location": "Lansing, MI",
-            "degree": "Bachelor of Engineering in Information Technology",
-            "duration": "Sep. 2010 -- May 2014"
+            "institution": "Govt. Civil Lines College",
+            "location": "Lahore, Pakistan",
+            "degree": "Intermediate in Computer Science",
+            "duration": "Sep. 2019 -- Jul. 2021"
         }
     ]
 }
