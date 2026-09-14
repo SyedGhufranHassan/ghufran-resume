@@ -10,7 +10,6 @@
         {
             "name": "Libraries & Frameworks",
             "skills": [
-                "GPT-4o Vision",
                 "OpenAI API",
                 "LangChain",
                 "FastAPI",
