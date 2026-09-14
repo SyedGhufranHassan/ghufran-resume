@@ -62,13 +62,14 @@
         {
             "name": "Technical Expertise",
             "skills": [
-                "Data Scraping using Selenium and Playwright from dynamic websites",
-                "Data Cleaning, Transformation, and Manipulation using Pandas and NumPy",
-                "Exploratory Data Analysis (EDA) and Visualization using Matplotlib",
-                "REST API Development using Flask, FastAPI",
-                "LLM-based Application Development using LangChain and Embeddings",
-                "Structured and Unstructured Data Handling with relational databases",
-                "End-to-End Data Pipelines including data collection, processing, and storage"
+                "Multimodal vision agents with GPT-4o Vision for image-based identification, authenticity checks, and valuation",
+                "Vision-action browser agents using screenshot reasoning and CDP mouse/keyboard control for canvas UIs (SCORM/Articulate 360)",
+                "Production LLM apps with LangChain, embeddings, prompt engineering, confidence scoring, and human-in-the-loop review",
+                "REST API and AI pipeline development with FastAPI and Flask, integrated with AWS S3, PostgreSQL, and underwriting workflows",
+                "Web scraping of dynamic sites with Selenium and Playwright, plus automated validation and cloud storage uploads",
+                "Data cleaning, transformation, and multi-state dataset preparation with Pandas and NumPy",
+                "Exploratory data analysis and visualization with Matplotlib; classical ML and deep learning with Scikit-learn and TensorFlow",
+                "End-to-end data and AI pipelines spanning collection, processing, model inference, and storage"
             ]
         }
     ]

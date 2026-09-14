@@ -9,7 +9,9 @@
             "logo": "",
             "details": [
                 "Architected a GPT-4o Vision collateral-valuation system that identifies trading cards from photos, checks authenticity and quality, estimates market value, and recommends risk-aware loan terms.",
-                "Shipped FastAPI production pipelines for vision preprocessing, prompt engineering, confidence scoring, and human-in-the-loop admin review, wired into AWS S3, PostgreSQL, and underwriting so appraisals finish faster with less manual work."
+                "Shipped FastAPI production pipelines for vision preprocessing, prompt engineering, confidence scoring, and human-in-the-loop admin review, wired into AWS S3, PostgreSQL, and underwriting so appraisals finish faster with less manual work.",
+                "Built a vision-action agent for SCORM/Articulate 360 that screenshots the canvas player, reasons with a multimodal LLM, and drives CDP mouse/keyboard actions when DOM agents miss the real click target.",
+                "Designed an agent-memory layer that fingerprints slides, stores success/failure traces as prior-experience hints, and an LLM pipeline that turns long documents into structured prompt clusters and reviewable course content."
             ]
         },
         {

@@ -1,114 +1,58 @@
 {
     "projects": [
         {
-            "title": "Vision-Action Agent for SCORM/Articulate 360",
-            "description": "Built a multimodal agent that reviews canvas-rendered SCORM/Articulate 360 courses by screenshotting the player, reasoning over the visible UI, and issuing CDP mouse/keyboard actions when DOM agents miss the real click target.",
-            "image": "",
-            "technologies": [
-                "Multimodal LLM",
-                "CDP",
-                "Computer Vision",
-                "SCORM",
-                "Articulate 360"
-            ],
-            "liveUrl": "",
-            "status": "completed"
-        },
-        {
-            "title": "Agent Memory and Course Content Pipeline",
-            "description": "Designed a memory layer that fingerprints slides, stores successful and failed interaction traces, and injects those hints into later runs, plus an LLM pipeline that turns long documents into structured prompt clusters and reviewable course content.",
-            "image": "",
-            "technologies": [
-                "LLM",
-                "Agent Memory",
-                "Prompt Engineering"
-            ],
-            "liveUrl": "",
-            "status": "completed"
-        },
-        {
             "title": "APPLY SMART - AI Job Application Agent",
-            "description": "Built an end-to-end agent that uploads a resume, extracts key details, filters listings, and submits personalized LLM-written applications instead of one-size-fits-all copy.",
+            "description": "Built an end-to-end agent that uploads a resume, extracts key details, filters listings, and submits personalized LLM-written applications.",
             "image": "",
-            "technologies": [
-                "LangChain",
-                "Selenium",
-                "Tkinter"
-            ],
+            "technologies": ["LangChain", "Selenium", "Tkinter"],
             "liveUrl": "",
             "status": "completed"
         },
         {
             "title": "Job Market Data Scraper",
-            "description": "Automated FlexJobs and Glassdoor collection with Selenium and Playwright, turning noisy listings into structured job data ready for analysis.",
+            "description": "Automated FlexJobs and Glassdoor collection with Selenium and Playwright into structured job data ready for analysis.",
             "image": "",
-            "technologies": [
-                "Python",
-                "Selenium",
-                "Playwright"
-            ],
+            "technologies": ["Python", "Selenium", "Playwright"],
             "liveUrl": "",
             "status": "completed"
         },
         {
             "title": "Bank Customer Churn Prediction",
-            "description": "Trained a TensorFlow neural net to predict customer churn and shipped a Streamlit app so the model could be used for live inference, not just offline evaluation.",
+            "description": "Trained a TensorFlow neural net for churn prediction and shipped a Streamlit app for real-time inference.",
             "image": "",
-            "technologies": [
-                "Python",
-                "TensorFlow",
-                "ANN",
-                "Streamlit"
-            ],
+            "technologies": ["Python", "TensorFlow", "ANN", "Streamlit"],
             "liveUrl": "",
             "status": "completed"
         },
         {
             "title": "Algerian Forest Fires Prediction",
-            "description": "Cleaned and visualized forest-fire data, trained regression models, and compared them with R-squared and MSE, then saved the trained models with Pickle.",
+            "description": "Cleaned and visualized forest-fire data, trained regression models (R-squared, MSE), and saved them with Pickle.",
             "image": "",
-            "technologies": [
-                "Python",
-                "Pandas",
-                "Scikit-learn",
-                "Matplotlib"
-            ],
+            "technologies": ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
             "liveUrl": "",
             "status": "completed"
         },
         {
             "title": "Holiday Package Prediction",
-            "description": "Trained a model to spot customers likely to buy a wellness tourism package, supporting tighter targeting and lower campaign spend.",
+            "description": "Built an ML model to identify customers likely to buy a wellness tourism package for tighter marketing targeting.",
             "image": "",
-            "technologies": [
-                "Python",
-                "Pandas",
-                "Scikit-learn"
-            ],
+            "technologies": ["Python", "Pandas", "Scikit-learn"],
             "liveUrl": "",
             "status": "completed"
         },
         {
             "title": "Loan Default Prediction",
-            "description": "Built preprocessing, visualization, and ML models that estimate loan-default risk from historical lending data.",
+            "description": "Preprocessed and visualized lending data, then trained ML models to estimate loan-default risk.",
             "image": "",
-            "technologies": [
-                "Python",
-                "Pandas",
-                "Scikit-learn"
-            ],
+            "technologies": ["Python", "Pandas", "Scikit-learn"],
             "liveUrl": "",
             "status": "completed"
         },
         {
             "title": "Used Car Price Prediction",
-            "description": "Predicted used-car prices from vehicle features so sellers could set more competitive listings.",
+            "description": "Predicted used-car prices from vehicle features to help sellers set competitive listings.",
             "image": "",
-            "technologies": [
-                "Python",
-                "Pandas",
-                "Scikit-learn"
-            ],
+            "technologies": ["Python", "Pandas", "Scikit-learn"],
             "liveUrl": "",
             "status": "completed"
         }

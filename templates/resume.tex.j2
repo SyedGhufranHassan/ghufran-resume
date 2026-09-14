@@ -116,16 +116,24 @@
 \section{Skills Summary}
   \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-(( for cat in skills ))
-(( if cat.name not in ["Technical Expertise", "Soft Skills"] ))
+(( for cat in skills if cat.name not in ["Technical Expertise", "Soft Skills"] ))
      \textbf{((= cat.name | latex_escape =))}: ((= cat.skills | join_tech | latex_escape =))(( if not loop.last )) \\
-(( endif ))
 (( endif ))
 (( endfor ))
     }}
   \end{itemize}
 \vspace{-5pt}
 (( endif ))
+
+%-----------TECHNICAL EXPERTISE-----------
+(( for cat in skills if cat.name == "Technical Expertise" ))
+\section{Technical Expertise}
+  \resumeItemListStart
+(( for skill in cat.skills ))
+    \resumeItem{((= skill | latex_escape =))}
+(( endfor ))
+  \resumeItemListEnd
+(( endfor ))
 
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -149,7 +157,7 @@
 %-----------PROJECTS-----------
 \section{Projects}
   \resumeSubHeadingListStart
-(( for project in projects[:4] ))
+(( for project in projects ))
     \resumeProjectHeading
       {\textbf{((= project.title =))} $|$ \emph{((= project.technologies | join_tech =))}}{((= project.status | capitalize =))}
       \resumeItemListStart
@@ -157,9 +165,6 @@
       \resumeItemListEnd
 (( endfor ))
   \resumeSubHeadingListEnd
-  \vspace{-6pt}
-  \small{\textit{For more projects, visit: \href{((= profile.resume.website + "\#projects" =))}{((= profile.resume.website =))}}}
-  \vspace{-4pt}
 
 %-------------------------------------------
 \end{document}
