@@ -11,13 +11,16 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build-release:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,12 +38,19 @@ jobs:
         with:
           root_file: resume.tex
 
-      - name: Create/Update Release
-        uses: marvinpinto/action-automatic-releases@latest
+      - name: Verify PDF
+        run: |
+          test -f resume.pdf
+          ls -lh resume.pdf
+
+      - name: Create or Update Latest Release
+        uses: softprops/action-gh-release@v2
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
+          tag_name: latest
+          name: Latest Resume
           prerelease: false
-          title: "Latest Resume"
-          files: |
-            resume.pdf
+          make_latest: true
+          files: resume.pdf
+          fail_on_unmatched_files: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
